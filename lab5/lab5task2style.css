@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.header {
+    background-color: #7A1F2B;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+.nav {
+    background-color: #4d0d15;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #FFD700;
+}
+
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.15);
+}
+
+.content h2 {
+    color: #7A1F2B;
+}
+
+.alumni-card {
+    display: inline-block;
+    width: 30%;
+    background-color: #f0f0f0;
+    margin: 1%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+    vertical-align: top;
+}
+
+.footer {
+    background-color: #7A1F2B;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
