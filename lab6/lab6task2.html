@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 06 - Task 2: Question and Answer</title>
+</head>
+<body>
+
+    <h2>Quiz Question</h2>
+    <button onclick="askQuestion()">Start Quiz</button>
+    <p id="result"></p>
+
+    <script>
+        function askQuestion() {
+            var correctAnswer = "Islamabad";
+            var userAnswer = prompt("What is the capital of Pakistan?");
+
+            if (userAnswer !== null && userAnswer.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                document.getElementById("result").innerHTML =
+                    "<span style='color:green;'>Correct! Well done.</span>";
+            } else {
+                document.getElementById("result").innerHTML =
+                    "<span style='color:red;'>Incorrect. The correct answer is " + correctAnswer + ".</span>";
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab 06 - Task 1: Sum of number
+        </title>
+    </head>
+    <body>
+        <h2>Sum of numbers until 0 is ent
+            ered</h2>
+        <p>Click the button below. Enter numbers one at a time;enter 0 to stop and see the total nmbers</p>
+        <button onclick="calculateSum()">Start</button>
+        <p id="result"></p>
+        <script>
+            function calculateSum(){
+                var sum = 0;
+                var num = 0;
+                while(true){
+                    num = prompt("Enter a number(0 to end):","0");
+                    num = Number (num);
+                    if (num ===0){
+                        break;
+                    }
+                    sum +=num;
+                }
+                dOcument.getElementById("result").innerHTML =arguments
+                "The sum of entered number is: "+ sum;
+            }
+        </script>
+    </body>
+</html>

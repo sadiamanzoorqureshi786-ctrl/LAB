@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 06 - Task 3: Repeat Message</title>
+</head>
+<body>
+
+    <h2>Display a Message Multiple Times</h2>
+    <button onclick="repeatMessage()">Start</button>
+    <div id="output"></div>
+
+    <script>
+        function repeatMessage() {
+            var count = prompt("Enter the number of times to display the message:", "1");
+            var message = prompt("Enter the message:", "Hello!");
+
+            count = Number(count);
+            var output = document.getElementById("output");
+            output.innerHTML = "";
+
+            for (var i = 1; i <= count; i++) {
+                output.innerHTML += "<p>" + message + "</p>";
+            }
+        }
+    </script>
+
+</body>
+</html>
