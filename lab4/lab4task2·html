@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile Template</title>
+    <link rel="stylesheet" href="lab4_task2_style.css" />
+</head>
+<body>
+
+    <table class="profile-table">
+        <tr class="banner">
+            <td colspan="2">Student Profile</td>
+        </tr>
+
+        <tr class="section-title">
+            <td colspan="2">Personal Information</td>
+        </tr>
+        <tr>
+            <td class="info-label">Full Name</td>
+            <td class="info-value">Sadia Manzoor</td>
+        </tr>
+        <tr>
+            <td class="info-label">Registration No.</td>
+            <td class="info-value">COSC241211122</td>
+        </tr>
+        <tr>
+            <td class="info-label">Program</td>
+            <td class="info-value">BS Information Technology</td>
+        </tr>
+        <tr>
+            <td class="info-label">University</td>
+            <td class="info-value">Emerson University Multan</td>
+        </tr>
+
+        <tr class="section-title">
+            <td colspan="2">Contact Details</td>
+        </tr>
+        <tr>
+            <td class="info-label">Email</td>
+            <td class="info-value">sadia.example@email.com</td>
+        </tr>
+        <tr>
+            <td class="info-label">Phone</td>
+            <td class="info-value">0300-0000000</td>
+        </tr>
+
+        <tr class="footer">
+            <td colspan="2">&copy; 2026 Student Profile Page</td>
+        </tr>
+    </table>
+
+</body>
+</html>

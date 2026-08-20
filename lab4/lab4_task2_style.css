@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #eaeaea;
+    margin: 0;
+}
+
+.profile-table {
+    width: 70%;
+    margin: 40px auto;
+    background-color: white;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.banner td {
+    background-color: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 26px;
+}
+
+.info-label {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    padding: 12px;
+    width: 30%;
+}
+
+.info-value {
+    padding: 12px;
+}
+
+.section-title td {
+    background-color: #dff0d8;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.footer td {
+    background-color: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
